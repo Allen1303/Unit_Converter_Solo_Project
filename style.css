@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 550px;
+  height: 729px;
+  top: 126px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.input-section {
+  margin: 0 auto;
+  width: 550px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 55px 15%;
+  background-color: #6943ff;
+}
+
+.h1-div {
+  width: 448px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15%;
+  padding-bottom: 10%;
+}
+.h1-div > h1 {
+  letter-spacing: -2%;
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  color: whitesmoke;
+  text-align: center;
+  /* margin: 0 auto; */
+  /* margin-top: 3%; */
+}
+#input-box {
+  margin: 0 auto;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 24.39px;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+  background: #6943ff;
+  border: 2px solid #b295ff;
+  width: 117px;
+  height: 83px;
+  border-radius: 5px;
+}
