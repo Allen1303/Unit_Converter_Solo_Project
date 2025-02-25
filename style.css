@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .main-container {
   width: 550px;
   height: 729px;
@@ -16,7 +15,6 @@
   border: 1px solid gray;
   border-radius: 5px;
 }
-
 .input-section {
   margin: 0 auto;
   width: 550px;
@@ -28,7 +26,6 @@
   padding: 55px 15%;
   background-color: #6943ff;
 }
-
 .h1-div {
   width: 448px;
   height: 38px;
@@ -46,8 +43,6 @@
   line-height: 38px;
   color: whitesmoke;
   text-align: center;
-  /* margin: 0 auto; */
-  /* margin-top: 3%; */
 }
 #input-box {
   margin: 0 auto;
@@ -62,4 +57,58 @@
   width: 117px;
   height: 83px;
   border-radius: 5px;
+}
+
+/* Button styling based on specifications */
+button {
+  width: 117px;
+  height: 42px;
+  position: relative;
+  top: 25px;
+  border-radius: 5px;
+  background-color: white;
+  color: #3D3D3D;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Units section styling with grid layout */
+.units-section {
+  width: 100%;
+  background-color: #F4F4F4;
+  padding: 36px 25px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+}
+
+.units-section div {
+  width: 500px;
+  height: 108.57px;
+  background-color: #FFFFFF;
+  border-radius: 4.68px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.units-section h3 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  color: #5A537B;
+  margin-bottom: 9px;
+}
+
+.units-section p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  color: #353535;
+  text-align: center;
 }
