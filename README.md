@@ -1,6 +1,8 @@
 # Unit_Converter_Solo_Project
  A Scrimba.com JavaScript Course Solo-Project Challenge
 
+ <img src="assets/project-image.png" alt="Project Image" width=" 400" height="300">
+
  # Metric/Imperial Unit Converter
 
 A lightweight, user-friendly tool to convert between metric and imperial units. This application provides instant conversion for length, volume, and mass measurements.
