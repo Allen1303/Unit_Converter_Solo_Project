@@ -1,7 +1,7 @@
 # Unit_Converter_Solo_Project
  A Scrimba.com JavaScript Course Solo-Project Challenge
 
- <img src="assets/project-image.png" alt="Project Image" width=" 400" height="550">
+ <img src="assets/project-image.png" alt="Project Image" width=" 300" height="450">
 
  # Metric/Imperial Unit Converter
 
